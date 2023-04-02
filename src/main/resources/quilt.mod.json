@@ -1,0 +1,31 @@
+{
+	"schema_version": 1,
+	"quilt_loader": {
+		"group": "sschr15.mods",
+		"id": "af2023-sschr15",
+		"version": "${version}",
+		"metadata": {
+			"name": "sschr15's April Fools 2023 Mod",
+			"description": "Fun changes for Minecraft 23w13a_or_b",
+			"contributors": {
+				"sschr15": "Owner"
+			},
+			"contact": {
+				"issues": "https://github.com/sschr15/af2023-mod/issues",
+				"sources": "https://github.com/sschr15/af2023-mod"
+			}
+		},
+		"intermediate_mappings": "net.fabricmc:intermediary",
+		"depends": [
+			{
+				"id": "quilt_loader",
+				"versions": ">=0.18.7"
+			},
+			{
+				"id": "minecraft",
+				"versions": "1.20-alpha.23.13.ab"
+			}
+		]
+	},
+	"mixin": "af2023.mixins.json"
+}
